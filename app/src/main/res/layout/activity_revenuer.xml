@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.Rechanger">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/wall">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight=".9"
+            android:background="#ae0001" >
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/imageView9"
+                android:layout_weight=".8"
+                android:src="@drawable/backicon"
+                android:scaleType="center"
+                android:contentDescription="@string/menu"
+                android:onClick="backToTheFuture"
+                android:nestedScrollingEnabled="true" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Revenu"
+                android:id="@+id/title"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight=".2"
+                android:textStyle="bold"
+                android:gravity="center_vertical"
+                android:textColor="#FFFFFF" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight=".9"
+            android:background="#8e858585"
+            android:layout_margin="5dp" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:inputType="number"
+                android:ems="10"
+                android:id="@+id/total"
+                android:layout_weight=".4"
+                android:gravity="center_vertical|center_horizontal"
+                android:text="4321.23"
+                android:textSize="40dp"
+                android:textColor="#000000" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="TOTAL - Dhs"
+                android:id="@+id/textView14"
+                android:layout_weight=".6"
+                android:gravity="center_vertical|center_horizontal"
+                android:textColor="#ae0001" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight=".2" >
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight=".125"
+                android:gravity="center_vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="REVENU :"
+                    android:id="@+id/c_montant"
+                    android:layout_weight=".6"
+                    android:textAlignment="center"
+                    android:textColor="#141414" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="numberDecimal"
+                    android:ems="10"
+                    android:id="@+id/f_prixProduit"
+                    android:layout_weight=".4"
+                    android:textColor="#ff0000"
+                    android:textAlignment="center" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight=".125"
+                android:gravity="center_vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="KM DEBUT"
+                    android:id="@+id/c_kilometrage"
+                    android:layout_weight=".6"
+                    android:textAlignment="center"
+                    android:textColor="#141414" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="numberDecimal"
+                    android:ems="10"
+                    android:id="@+id/f_kilometrage"
+                    android:layout_weight=".4"
+                    android:textColor="#ff0000"
+                    android:textAlignment="center" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight=".125"
+                android:gravity="center_vertical" >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="KM FIN"
+                    android:id="@+id/c_kilometrage2"
+                    android:layout_weight=".6"
+                    android:textAlignment="center"
+                    android:textColor="#141414" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="numberDecimal"
+                    android:ems="10"
+                    android:id="@+id/f_kilometrage2"
+                    android:layout_weight=".4"
+                    android:textColor="#ff0000"
+                    android:textAlignment="center" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight=".125"
+                android:gravity="center_vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="COEFFICIENT : "
+                    android:id="@+id/c_coefficient"
+                    android:layout_weight=".6"
+                    android:textAlignment="center"
+                    android:textColor="#141414" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="numberDecimal"
+                    android:ems="10"
+                    android:id="@+id/f_coefficient"
+                    android:layout_weight=".4"
+                    android:textColor="#ff0000"
+                    android:textAlignment="center" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight=".125"
+                android:gravity="center_vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="TRAITE"
+                    android:id="@+id/c_traite"
+                    android:layout_weight=".6"
+                    android:textAlignment="center"
+                    android:textColor="#141414" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="numberDecimal"
+                    android:ems="10"
+                    android:id="@+id/f_traite"
+                    android:layout_weight=".4"
+                    android:textColor="#ff0000"
+                    android:textAlignment="center" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight=".125"
+                android:gravity="center_vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="DATE"
+                    android:id="@+id/c_date"
+                    android:layout_weight=".6"
+                    android:textAlignment="center"
+                    android:textColor="#141414" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/f_dateRechange"
+                    android:layout_weight=".4"
+                    android:textAlignment="center"
+                    android:editable="false"
+                    android:textColor="#ff0000" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight=".125"
+                android:gravity="center_vertical">
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="ENREGISTRER"
+                    android:id="@+id/saveButton"
+                    android:layout_weight=".5"
+                    android:onClick="enregistrerRevenu" />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="ANNULER"
+                    android:id="@+id/cancelButton"
+                    android:layout_weight=".5"
+                    android:onClick="afficher" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

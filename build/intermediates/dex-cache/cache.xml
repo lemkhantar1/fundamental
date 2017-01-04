@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/lemkhantar1/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.4.0/support-annotations-23.4.0.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="ffbe55fdb2bb456b1485831706a9eac3300bb6b8">
+        <dex dex="/Users/lemkhantar1/Documents/Apps/FUNDamental/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-23.4.0_0f97a655f89c823e86de8e79f4517f21a0ebfa17/classes.dex" />
+    </item>
+    <item
+        jar="/Users/lemkhantar1/Documents/Apps/FUNDamental/app/build/intermediates/exploded-aar/com.android.support/design/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="5326d9a850d491714fef8cbfaa9ea3416f0bf0d2">
+        <dex dex="/Users/lemkhantar1/Documents/Apps/FUNDamental/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-design-23.4.0_2b5b9af8307204fffb8ff0017105aa64454a23d6/classes.dex" />
+    </item>
+    <item
+        jar="/Users/lemkhantar1/Documents/Apps/FUNDamental/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="ec75036c3c52e451d0cde50a5aedaf5fd32354a0">
+        <dex dex="/Users/lemkhantar1/Documents/Apps/FUNDamental/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-recyclerview-v7-23.4.0_effa8a3877af316c4c73935525ecb78677e35f73/classes.dex" />
+    </item>
+    <item
+        jar="/Users/lemkhantar1/Documents/Apps/FUNDamental/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
+        <dex dex="/Users/lemkhantar1/Documents/Apps/FUNDamental/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-23.4.0_819ede31270b4c684bbecfc4622905dbcab31a06/classes.dex" />
+    </item>
+    <item
+        jar="/Users/lemkhantar1/Documents/Apps/FUNDamental/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
+        <dex dex="/Users/lemkhantar1/Documents/Apps/FUNDamental/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-23.4.0_f0648e333f3fc5e65aace727f5e934f5f61b24cc/classes.dex" />
+    </item>
+    <item
+        jar="/Users/lemkhantar1/Documents/Apps/FUNDamental/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
+        <dex dex="/Users/lemkhantar1/Documents/Apps/FUNDamental/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-23.4.0_78a9c3ca78694e63998b7ed9f6a1d9e8f1e04fd7/classes.dex" />
+    </item>
+    <item
+        jar="/Users/lemkhantar1/Documents/Apps/FUNDamental/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
+        <dex dex="/Users/lemkhantar1/Documents/Apps/FUNDamental/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-23.4.0_8a3cf7402bf0559b02bfa24c07d0bde3c4b9f133/classes.dex" />
+    </item>
+    <item
+        jar="/Users/lemkhantar1/Documents/Apps/FUNDamental/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/jars/libs/internal_impl-23.4.0.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
+        <dex dex="/Users/lemkhantar1/Documents/Apps/FUNDamental/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-23.4.0_f35615e8e868dc30a975d63c147539c5666ff8f5/classes.dex" />
+    </item>
+    <item
+        jar="/Users/lemkhantar1/Documents/Apps/FUNDamental/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="55a02b5501b17c082cfd844da22adc39b77e8eb2">
+        <dex dex="/Users/lemkhantar1/Documents/Apps/FUNDamental/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_c9bea2eea0e15d89bb1b46d6ca8e304c83f6d2a7/classes.dex" />
+    </item>
+    <item
+        jar="/Users/lemkhantar1/Documents/Apps/FUNDamental/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="24a0e766e9307190aa3ad03b517ebc43c9ba1b31">
+        <dex dex="/Users/lemkhantar1/Documents/Apps/FUNDamental/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_7385deb2da282f09816c7c0abbbdec26aad42111/classes.dex" />
+    </item>
+
+</items>

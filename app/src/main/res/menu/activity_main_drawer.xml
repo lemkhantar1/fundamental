@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <group android:checkableBehavior="single" >
+        <item android:id="@+id/nav_accumulateur" android:icon="@drawable/accumulateur"
+            android:title="ACCUMULATEUR" />
+        <item android:id="@+id/nav_gerage" android:icon="@drawable/garageicon"
+            android:title="GARAGE" />
+        <item android:id="@+id/nav_revenus" android:icon="@drawable/revenues"
+            android:title="REVENUS" />
+        <item android:id="@+id/nav_caisse" android:icon="@drawable/caisse"
+            android:title="CAISSE COMMUNE" />
+        <item android:id="@+id/nav_reglage" android:icon="@drawable/reglage"
+            android:title="REGLAGES" />
+    </group>
+
+</menu>

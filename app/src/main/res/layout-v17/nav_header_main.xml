@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="@dimen/nav_header_height"
+    android:background="@drawable/side_nav_bar"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark" android:orientation="vertical"
+    android:gravity="bottom">
+
+
+
+    <TextView android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="FUND-AMENTAL"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:layout_weight=".2"
+        android:gravity="center_vertical|center_horizontal"
+        android:textSize="30dp" />
+
+    <TextView android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="By : chakib.lem.1@gmail.com"
+        android:id="@+id/textView"
+        android:layout_weight=".8"
+        android:gravity="left|center_vertical" />
+
+</LinearLayout>

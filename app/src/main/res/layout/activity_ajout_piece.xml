@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.lemkhantar.fundamental.activities.AjoutPiece">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight=".9"
+            android:background="#ae0001" >
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/imageView16"
+                android:layout_weight=".8"
+                android:src="@drawable/backicon"
+                android:scaleType="center"
+                android:contentDescription="@string/menu"
+                android:nestedScrollingEnabled="true"
+                android:onClick="backToTheFuture" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Ajouter une piece"
+                android:id="@+id/textView3"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight=".2"
+                android:textStyle="bold"
+                android:gravity="center_vertical"
+                android:textColor="#FFFFFF" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight=".1" >
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight=".125"
+                android:gravity="center_vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="Categorie : "
+                    android:id="@+id/c_categorie"
+                    android:layout_weight=".6"
+                    android:textAlignment="center"
+                    android:textColor="#141414" />
+
+                <AutoCompleteTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/nvCategorie"
+                    android:completionThreshold="1"
+                    android:layout_weight=".4"
+                    android:textColor="#ff0000"
+                    android:textAlignment="center" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight=".125"
+                android:gravity="center_vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="SOUS CATEGORIE :"
+                    android:id="@+id/c_sousCategorie"
+                    android:layout_weight=".6"
+                    android:textAlignment="center"
+                    android:textColor="#141414" />
+
+                <AutoCompleteTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/nvSousCategorie"
+                    android:completionThreshold="1"
+                    android:layout_weight=".4"
+                    android:textColor="#ff0000"
+                    android:textAlignment="center" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight=".125"
+                android:gravity="center_vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="NOM DU PRODUIT :"
+                    android:id="@+id/c_produit"
+                    android:layout_weight=".6"
+                    android:textAlignment="center"
+                    android:textColor="#141414" />
+
+                <AutoCompleteTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/nvProduit"
+                    android:completionThreshold="1"
+                    android:layout_weight=".4"
+                    android:textColor="#ff0000"
+                    android:textAlignment="center" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight=".125"
+                android:gravity="center_vertical">
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="ENREGISTRER"
+                    android:id="@+id/saveButton"
+                    android:layout_weight=".5"
+                    android:onClick="enregistrerPiece" />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="ANNULER"
+                    android:id="@+id/cancelButton"
+                    android:layout_weight=".5"
+                    android:onClick="annuler" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>
